@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Anasayfa.master.cs" Inherits="kisiselblogsitem.Anasayfa1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   
+     <title>Yunus Namlı</title>
+  
+    <meta name="Yunus Namli" content="namli.yunuss@gmail.com" />  
+    <link href="style.css" rel="stylesheet" />
+    <meta name="abstract" 
+	content="İşine aşık bir yazılımcının blog sitesidir." />
+	<meta name="content-language" content="tr" />
+	<meta charset="UTF-8"/>
+	<meta name="keywords" content="" />
+	<meta name="copyright" content="(c) 2020 Yunus N. (yunusnamli.com) Tüm Hakları Saklıdır." />
+	<meta name="designer" content="Yunus Namlı" />
+	<meta name="robots" content="none"/>
+    
+     
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+   <div class="sayfa_tamami">
+        
+         <div class="arka_plan_resmi">
+<div class="arka_plan_yazi">
+	
+	<hr width="600" size="5" color="orange" style="margin-top: 40px">
+	<p style="margin: 0px; text-align: center; font-size: 60px;"><font face="Times New Roman"  color="white">Yunus Namlı</font></p>
+	<p style="margin: 0px; text-align: center; font-size: 15px;"><font face="Times New Roman"  color="white">Bir Programcının Blog Sitesi</font></p>
+	<hr width="600" size="5" color="orange" style="margin-top: 10px;">
+	<div style="width: 280px; height: 100px; margin-left: 170px; margin-top: 35px;">
+	<p style="color:#009EFA; font-weight: bold; font-size: 20px"><</p><p style="color: red; font-size: 18px; margin-top: -42px; margin-left: 15px;">body</p>
+	<p style="color: #FA5300; font-size: 18px; margin-top: -39px; margin-left: 55px;">background=</p>
+	<p style="color: #009EFA; font-size: 18px; margin-top: -39px; margin-left: 150px;">"wallpaper.jpg"></p>
+     </div>
+</div>
+</div>
+        <div class="menu_dis">
+<div class="logo">
+	<p style="margin: 0px; font-size: 30px; font-family: Times New Roman; color: white;
+	text-align: center; margin-top: 20px">YN</p>
+</div>	
+
+<div class="menu_ic">
+
+<ul>
+<li><a href="Anasayfa.aspx">Ana Sayfa</a></li>
+<li><a href="Hakkımda.aspx">Hakkımda</a></li>
+<li ><a href="Projelerim.aspx">Projelerim</a></li>
+<li><a href="Yazılım.aspx" style="margin-left:-5px;">Yazılım</a></li>
+<li><a href="Veri_Madenciligi.aspx" style="margin-left:7px;">Veri Madenciliği</a></li>
+<li><a href="Yazar_Bloglari.aspx" style="margin-left:35px;">Yazar Blogları</a></li>
+</ul>
+</div>
+  
+
+        </div>
+        
+        <div id="orta_kutu">     
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">    
+        </asp:ContentPlaceHolder>    
+        </div>   
+
+        <asp:Repeater ID="alt_bilgi" runat="server"> 
+            <ItemTemplate>
+        <div class="bana_ulas">
+	<h2 style="font-family: Raleway,sans-serif; font-size: 36px; font-weight: 800; color: black; margin-top: 0px; margin-left: 547px; "><%#Eval("bana_ulas_yazi")%></h2>
+	
+	<p style="margin: 0px; margin-left: 70px; font-size: 17px;color: black; font-family: Athiti,sans-serif; margin-top: -10px;"  ><%#Eval("bana_ulas_1")%></p>
+ 
+ <p style="margin: 0px; margin-left: 547px; font-size: 17px;color: black; font-family: Athiti,sans-serif;"><%#Eval("bana_ulas_2")%></p>
+<hr width="90" size="1" color="#777" style="margin-top: 20px;" >
+<div style="width: 25px; height: 7px; background-color: #2196f3; margin-left: 668px; margin-top: -12px"></div>
+
+</div>
+        <div class="iletisim_dis">
+<div class="iletisim">
+	
+	<div class="iletisim_ic">
+		<img src="<%#Eval("telefon_resim")%>" style="width: 40px; height: 40px; margin-top: 62px;
+margin-left: 80px; ">
+		<p style="font-size: 13px; color: black; font-family: Athiti,sans-serif; margin: 0px; margin-top: 20px; margin-left: 40px;"><%#Eval("telefon")%></p>
+	</div>
+	
+	<div class="iletisim_ic">
+		<img src="<%#Eval("konum_resim")%>" style="width: 50px; height: 40px; margin-top: 60px;
+margin-left: 80px;">
+		<p style="font-size: 13px; color: black; font-family: Athiti,sans-serif; margin: 0px;margin-top: 17px; margin-left: 80px;"><%#Eval("il")%></p>
+	
+	  <p style="font-size: 13px; color: black; font-family: Athiti,sans-serif; margin: 0px; margin-left: 35px; margin-top: 2px;"><%#Eval("ilce")%><p>
+	
+	</div>
+	
+	<div class="iletisim_ic">
+		
+		<img src="<%#Eval("gmail_resim")%>" style="width: 50px; height: 50px; margin-top: 60px;
+margin-left: 80px;">
+		
+		<p style="font-size: 13px; color: black; font-family: Athiti,sans-serif; margin: 0px; margin-top: 15px; margin-left: 35px;"><%#Eval("gmail")%></p>
+	
+	</div>
+
+</div>
+</div>
+ </ItemTemplate>
+             </asp:Repeater>  
+
+
+  <footer style=" box-shadow:-0px -5px 20px orange ">
+	                           
+     
+           <div class="resimli_linkler">
+		<asp:Repeater ID="footer" runat="server">
+               <ItemTemplate>
+            <div class="ic_resimli_linkler"><a href="<%#Eval("footer_linkler")%>"><img src="<%#Eval("footer_resimler")%>" "></a></div>          
+        </ItemTemplate>
+       </asp:Repeater>
+    </div>
+               <p style="font-size: 14px;  line-height: normal;  color: #777; font-family: Athiti,sans-serif; margin-left: 510px; margin-top: -5px;">Copyright © 2020-2023 Yunus Namlı | Tüm Hakları Saklıdır.</p>
+        </footer>
+      </div>
+         </form>
+</body>
+</html>

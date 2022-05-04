@@ -1,0 +1,766 @@
+﻿body 
+{
+   background-color:white;
+   margin:0px;
+}
+.sayfa_tamami
+{
+    width:1360px;
+    height:auto;
+    margin:0 auto;
+
+}
+#orta_kutu
+{
+    width:960px;
+    height:auto;
+    margin:0 auto;
+}
+.arka_plan_resmi
+{
+ width: 1360px;
+ height: 300px;
+background-color: #111;
+}
+.arka_plan_yazi
+{
+width: 600px;
+height: 200px;
+margin-top: 50px;
+margin-left: 380px;
+float: left;
+
+}
+.menu_dis
+{
+	width: 1360px;
+	height: 80px;
+	background-color:#111;
+	margin-top: 1px;
+    box-shadow: 0px 5px 20px black;
+}
+
+    div.menu
+{
+	width: 1360px;
+	height: 50px;
+	background-color: orange;
+	margin:0 auto;
+	float: left;
+
+}
+
+.logo
+{
+  
+  width: 70px;
+  height: 70px;
+  margin-left: 200px;
+  margin-top: 3px;
+  border: 1px solid white;
+  border-radius: 35px;
+  float: left;
+  
+
+}
+
+.menu_ic
+{
+  
+  width: 800px;
+  height: 80px;
+  float: left;
+  margin-left: 240px;
+
+}
+.menu_ic ul
+{
+
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menu_ic ul li a
+{
+	display: block;
+	width: 120px;
+	height: 50px;
+	float: left;
+	color:white;
+	text-align: center;
+	padding-top: 30px;
+	font:bold 16px times new roman;
+	text-decoration: none;
+
+
+}
+
+.menu_ic ul li a:hover
+{
+	transition: 0.5s;
+	color:orange;	
+}
+.icerik
+{
+    width:690px;
+    height:auto;
+    float:left;
+    margin-top:40px;
+}
+.icerikler
+{
+    width:690px;
+    height:190px;
+    float:left;
+    border:1px solid black;
+    border-radius:20px;
+    margin-bottom:20px;  
+   box-shadow: 2px 2px 10px black, -2px -2px 5px orange;
+
+}
+.icerik_yazi
+{
+    width:400px;
+    height:190px;
+    float:left;
+  
+
+}
+.icerik_yazi a
+{
+   text-decoration:none;
+   color:black;
+
+}
+.icerik_yazi a:hover
+{
+   text-decoration:underline;
+   text-decoration-color:red;
+
+ 
+
+}
+.icerik_resim
+{
+    width:280px;
+    height:160px;
+    margin-top:15px;
+    float:left;
+
+}
+.icerik_resim img
+{
+    width:280px;
+    height:160px;
+    border-radius:5px;
+}
+.sag_taraf
+{
+    float: left;
+    width:240px;
+   height:auto;
+    margin-top:40px;
+    margin-left:30px;
+}
+
+.Giris
+{
+    float:left;
+    width:240px;
+    height:auto;
+}
+.giris_yap
+{
+    float : left;
+    width:240px;
+    height:44px;
+    border:1px solid grey;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+   background-color:#fff;
+ 
+}
+.giris_kismi
+{
+    float : left;
+    width:230px;
+    height:200px;
+    border:1px solid grey;
+    padding-top:20px;
+    padding-left:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px; 
+   background-color:#fff;
+
+}
+.Sifre
+{
+    float:left;
+    width:390px;
+    height:auto;
+   margin-top:20px;
+   margin-left:250px;
+}
+.sifre_hatirlatma
+{ 
+    float : left;
+    width:460px;
+    height:44px;
+    border:1px solid black;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+   background-color:#fff;
+
+}
+.sifremi_hatirlat
+{
+    float : left;
+    width:450px;
+    height:180px;
+    border:1px solid black;
+    padding-top:20px;
+    padding-left:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px; 
+   background-color:#fff;
+}
+
+.btn_giris
+{
+    cursor:pointer;
+}
+.btn_kayit
+{
+    cursor:pointer;
+}
+.panel_kullanici
+{
+    width:100%;
+}
+.buton_cikis
+{
+cursor:pointer;
+}
+.btn_iptal
+{
+    cursor:pointer;
+}
+.ana_sayfa_don
+{
+    cursor:pointer;
+}
+
+.teknolojik_bilgiler
+{
+   float:left;
+   width:240px;
+   height:auto;
+   margin-top:30px;
+   box-shadow: 2px 2px 10px black, -2px -2px 5px orange;
+  
+
+}
+.baslik
+{
+    float : left;
+    width:240px;
+    height:44px;
+    border:1px solid grey;
+ 
+}
+
+.bilgiler
+{
+    float:left;
+    width:220px;
+    height:auto;
+    border:1px solid grey;
+    padding:10px;
+    
+   
+}
+.teknolojik_bilgi
+{
+    float:left;
+    width:100%;
+    height:auto;
+    font-family:'Comic Sans MS';
+   margin-top:10px;
+}
+/*-------------------------- Bana Ulaş Kısmı -----------------------*/
+.bana_ulas
+{
+ float:left;
+width: 1360px;
+height: 180px;
+margin-top:40px;
+background-color:white;
+}
+.iletisim
+{
+
+width: 640px;
+height: 200px;
+margin-top: -35px;
+margin-left: 365px;
+}
+
+.iletisim_ic
+{
+ 
+ width: 200px;
+ height: 200px;
+ margin-right: 10px;
+ float: left;
+ margin-top:-40px;
+
+
+}
+
+/*---------------------------- Footer Kısmı  ----------------------------- */
+footer
+{
+    float:left;
+	width: 1360px;
+	height: 100px;
+	background-color: #111;
+	padding-top: 80px;
+   
+}
+.resimli_linkler
+{
+  
+  width: 265px;
+  height: 80px;
+  margin-left: 563px;
+  margin-top:-38px;
+
+}
+.ic_resimli_linkler
+{ 
+  width: 50px;
+  height: 50px;
+  margin-right: 2px;
+  float: left;
+  margin-top: 10px;
+  
+
+}
+.ic_resimli_linkler img
+{
+    width: 40px; 
+    height: 40px; 
+    border-radius: 20px; 
+    margin-top: 5px ;
+    margin-left:5px
+    
+    
+}
+.ic_resimli_linkler a:hover img
+{
+ transition: 0.5s;
+ opacity: 0.5;
+
+}
+/*------------------------------Üye Kayıt Kısmı --------------------- */
+.kullanici_resmi_1
+{
+    width:256px;
+    height:256px;
+    float:left;
+    margin-left:220px;
+    margin-top:230px;
+    margin-right:10px;
+
+}
+.kullanici_resmi_1 img
+{
+    width:200px;
+    height:200px;
+}
+
+.kullanici_resmi_2
+{
+    width:256px;
+    height:256px;
+    float:left;
+    margin-left:60px;
+    margin-top:230px;
+
+}
+.kullanici_resmi_2 img
+{
+    width:200px;
+    height:200px;
+
+}
+/*------------------------------Hakkımda Kısmı --------------------- */
+.fotograf
+{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 50px;
+	border-radius: 20px;
+	
+}
+.hakkımda_yazi
+{
+	width: 620px;
+	height: auto;
+	float: left;
+	margin-left: 5px;
+	margin-top: 50px;
+
+}
+.pdf
+{
+  
+  width: 170px;
+  height: 30px;
+  border:2px solid orange;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-radius: 20px;
+
+}
+/*------------------------------Projelerim Kısmı --------------------- */
+.buton_ileri
+{
+
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	top: 180px;
+	left: 845px;
+	opacity: 0.2;
+	transition:1s;
+
+	
+}
+.buton_geri:hover .sol
+{
+	opacity: 1;
+	transition: 0.7s;
+}
+
+.buton_ileri:hover
+{
+	transition-duration: 0.6s;
+	opacity: 1;
+	
+	
+}
+.buton_ileri:hover .sag
+{
+	opacity: 1;
+	transition: 0.7s;
+}
+.buton_ileri img
+{
+	padding-left: 2px;
+	width: 50px;
+	height: 50px;
+		
+}
+.buton_geri
+{
+	width: 70px;
+	height: 50px;
+	position: absolute;
+	top: 180px;
+	left: -10px;
+	transition:1s;
+}
+.buton_geri img
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 14px;
+	opacity: 0.2;
+
+}
+.slider
+{
+	position: relative;
+	width: 900px;/*1156 */
+	height: 400px;
+	margin: 0 auto;
+    margin-top:20px;
+	overflow: hidden;
+   
+}
+.slide
+{
+	width: 900px;/*1156*/
+	height: 400px;
+	position: relative;
+	float: left;
+
+}
+
+.slide img
+{
+	width: 900px; /*1156*/
+	height: 400px;
+	transition: 1s;
+}
+.proje_yazi
+{
+    width:900px;
+    height:auto;
+    margin-left:30px;
+    margin-top:10px;
+    float:left;
+}
+/*------------------------------Yazılım Kısmı --------------------- */
+.yazilim_dis
+{
+    width:700px;
+    height:auto;
+    margin:0px auto;
+    margin-top:25px;
+     
+}
+.yazilim_fotograf
+{
+    width:700px;
+    height:380px;
+   float:left;
+
+}
+.yazilim_baslik
+{
+    width:560px;
+    height:25px;
+    margin-left:70px;
+    margin-top:20px;
+    float:left;
+}
+.yazilim_icerik
+{
+    width:630px;
+    height:auto;
+    margin-left:40px;
+    margin-top:15px;
+    float:left;
+}
+.yazilim_fotograflar
+{
+    width:600px;
+    height:400px;
+   margin-top:10px;
+   margin-left:50px;
+   float:left;
+}
+.yazilim_basliklari
+{
+    width:560px;
+    height:25px;
+    margin-left:40px;
+    margin-top:30px;
+    float:left;
+}
+.yazilim_icerikleri
+{
+    width:630px;
+    height:auto;
+    margin-left:40px;
+    margin-top:20px;
+    float:left;
+}
+/*------------------------------Veri Madenciliği Kısmı --------------------- */
+.veri_dis
+{
+    width:700px;
+    height:auto;
+    margin:0px auto;
+    margin-top:25px;
+     
+}
+.veri_fotograf
+{
+    width:700px;
+    height:380px;
+   float:left;
+
+}
+.veri_baslik
+{
+    width:560px;
+    height:25px;
+    margin-left:70px;
+    margin-top:20px;
+    float:left;
+}
+.veri_icerik
+{
+    width:630px;
+    height:auto;
+    margin-left:40px;
+    margin-top:15px;
+    float:left;
+}
+.veri_basliklari
+{
+    width:560px;
+    height:25px;
+    margin-left:40px;
+    margin-top:30px;
+    float:left;
+}
+.veri_icerikleri
+{
+    width:630px;
+    height:auto;
+    margin-left:40px;
+    margin-top:-20px;
+    float:left;
+}
+.veri_fotograflar
+{
+    width:600px;
+    height:300px;
+   margin-left:50px;
+   float:left;
+}
+/*------------------------------Ana Sayfa İçerik Kısmı --------------------- */
+.teknolojik_icerik_dis
+{
+    width:700px;
+    height:auto;
+    margin:0px auto;
+    margin-top:25px;
+     
+}
+.teknolojik_icerik_baslik
+{
+    width:750px;
+    height:25px;
+    margin-left:15px;
+    margin-top:20px;
+    float:left;
+}
+.teknolojik_icerik_fotograf
+{
+    width:700px;
+    height:380px;
+    margin:0px auto;
+    margin-top:10px;
+   float:left;
+
+}
+.teknolojik_icerik
+{
+    width:630px;
+    height:auto;
+    margin-left:40px;
+    margin-top:15px;
+    float:left;
+}
+/*------------------------------Yorum Yapma Kısmı --------------------- */
+.uye_yorum_kismi
+{
+    width:700px;
+    height:auto;
+    float:left;
+    margin-top:20px;
+}
+.yorumlar
+{
+    width:689px;
+    height:auto;
+    float:left;
+    border:1px solid black;
+    border-radius:10px;  
+    margin-top:10px;
+  padding-top:10px;
+  padding-left:10px;
+   
+}
+/*------------------------------Yazar Blogları Kısmı --------------------- */
+.yazar_icerik
+{
+    width:690px;
+    height:150px;
+    float:left;
+    margin-bottom:20px;
+    margin-top:20px;
+    margin-left:130px;
+    border:1px solid black;
+    border-radius:20px;
+   box-shadow: 2px 2px 10px black, -2px -2px 5px orange;
+
+}
+.icerik_ekle_resim
+{
+    width:150px;
+    height:150px;
+    float:left;
+
+}
+.yazi
+{
+    width:390px;
+    height:150px;
+    float:left;
+
+}
+.icerik_arastir_resim
+{   
+    width:150px;
+    height:150px;
+    float:left;
+
+}
+.blog_icerik_dis
+{
+    width:700px;
+    height:auto;
+    margin:0px auto;
+    margin-top:25px;
+     
+}
+.blog_icerik_baslik
+{
+    width:750px;
+    height:25px;
+    margin-left:15px;
+    margin-top:20px;
+    float:left;
+
+}
+.blog_icerik_fotograf
+{
+    width:700px;
+    height:380px;
+    margin:0px auto;
+    margin-top:10px;
+   float:left;
+
+}
+.blog_icerik
+{
+    width:630px;
+    height:auto;
+    margin-left:40px;
+    margin-top:15px;
+    float:left;
+}
+.bloglar
+{
+    width:694px;
+    height:auto;
+    float:left;
+    border:1px solid black;
+    margin-top:25px;
+    margin-left:100px;
+    padding-top:10px;
+    padding-left:20px;
+    padding-bottom:10px;
+    border-radius:20px;
+    box-shadow: 2px 2px 10px #ff3030, -2px -2px 5px #6959cd;
+   
+}
